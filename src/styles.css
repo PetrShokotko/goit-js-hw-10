@@ -1,0 +1,29 @@
+body {
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    color: red;
+}
+
+.loader {
+    font-weight: 600;
+}
+
+.flex-container {
+    display: flex;
+    width: 800px;
+}
+
+.thumb {
+    margin-left: 30px;
+}
+
+.breed-select.ss-main {
+    margin-bottom: 40px;
+    width: 400px;
+}
