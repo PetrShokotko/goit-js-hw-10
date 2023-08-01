@@ -41,7 +41,7 @@ function createOptions(arrCats) {
 }
 
 function createCard(selectedCat) {
-    el.containerCatInfo.innerHTML = `<article class="flex-container"><img src=${selectedCat.url} alt=${selectedCat.breeds[0].name} width="300"><div class="thumb"><h3>${selectedCat.breeds[0].name}</h3><p>${selectedCat.breeds[0].description}</p><p><b>Temperament: </b>${selectedCat.breeds[0].temperament}</p></div></article>`;
+    el.containerCatInfo.innerHTML = `<article class="flex-container"><img src=${selectedCat.url} alt=${selectedCat.breeds[0].name} width="300"><div class="cat-description"><h3>${selectedCat.breeds[0].name}</h3><p>${selectedCat.breeds[0].description}</p><p><b>Temperament: </b>${selectedCat.breeds[0].temperament}</p></div></article>`;
 }
 
 function handlerSelect(e) {
